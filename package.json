@@ -1,0 +1,27 @@
+{
+  "name": "fs_readstream_seek",
+  "version": "1.1.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --100",
+    "preversion": "npm test",
+    "postversion": "npm publish",
+    "postpublish": "git push origin --all; git push origin --tags"
+  },
+  "repository": "https://github.com/drylikov/fs_readstream_seek",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^10.3.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "fs",
+    "readstream",
+    "fseek",
+    "seek",
+    "fs.seek"
+  ]
+}
